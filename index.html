@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+
+    <!-- Website CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Cryptocurrency Live Tracker</title>
+</head>
+<body>
+    <div class="container-fluid d-flex justify-content-center">
+        <!-- Title Row -->
+        <div class="row d-flex justify-content-center">
+            <h1 class="display-2 text-center">
+                Cryptocurrency Live Tracker
+            </h1>
+        </div>
+
+        <!-- First Row -->
+        <div class="row mt-5 d-flex justify-content-around">
+                <div class="card col-xl-3 mt-5" id="btc">
+                    <img class="card-img-top" src="pictures/btc.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">Bitcoin</h2>
+                        <p class="card-text">
+                            <h3 id="price">
+                                USD 0.00
+                            </h3>
+                            <h3 id="change">
+                                (+0.0)
+                            </h3>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card col-xl-3 mt-5" id="eth">
+                    <img class="card-img-top" src="pictures/eth.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">Ethereum</h2>
+                        <p class="card-text">
+                            <h3 id="price">
+                                USD 0.00
+                            </h3>
+                            <h3 id="change">
+                                (+0.0)
+                            </h3>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card col-xl-3 mt-5" id="bnb">
+                    <img class="card-img-top" src="pictures/bnb.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">Binance Coin</h2>
+                        <p class="card-text">
+                            <h3 id="price">
+                                USD 0.00
+                            </h3>
+                            <h3 id="change">
+                                (+0.0)
+                            </h3>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        <!-- Second Row -->
+        <div class="row mt-5 d-flex justify-content-around">
+            <div class="card col-xl-3 mt-5" id="etc">
+                <img class="card-img-top" src="pictures/etc.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h2 class="card-title">Ethereum Classic</h2>
+                    <p class="card-text">
+                        <h3 id="price">
+                            USD 0.00
+                        </h3>
+                        <h3 id="change">
+                            (+0.0)
+                        </h3>
+                    </p>
+                </div>
+            </div>
+    
+            <div class="card col-xl-3 mt-5" id="wbtc">
+                <img class="card-img-top" src="pictures/wbtc.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h2 class="card-title">Wrapped Bitcoin</h2>
+                    <p class="card-text">
+                        <h3 id="price">
+                            USD 0.00
+                        </h3>
+                        <h3 id="change">
+                            (+0.0)
+                        </h3>
+                    </p>
+                </div>
+            </div>
+    
+            <div class="card col-xl-3 mt-5" id="dcr">
+                <img class="card-img-top" src="pictures/dcr.png" alt="Card image cap">
+                <div class="card-body">
+                    <h2 class="card-title">Decred</h2>
+                    <p class="card-text">
+                        <h3 id="price">
+                            USD 0.00
+                        </h3>
+                        <h3 id="change">
+                            (+0.0)
+                        </h3>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h5 class="text-center mt-5">API: api.cryptonator.com</h5>
+    </footer>
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Website Script -->
+    <script src="app.js">
+    </script>
+</body>
+</html>
